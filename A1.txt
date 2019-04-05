@@ -18,6 +18,6 @@ int main()
 {
     const char* a="Hello";
     const char* b="World";
-    char* c=concat(a,b);
+    char* result=concat(a,b);
     cout<<c;
 }
