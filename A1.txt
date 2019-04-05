@@ -5,13 +5,13 @@ using namespace std;
 char* concat(const char* a, const char* b)
 {
     int size=strlen(a) + strlen(b);
-    char *p = new char[size];
+    char *result = new char[size];
 
 
-    strcpy(p, a);
-    strcat(p, b);
+    strcpy(result, a);
+    strcat(result, b);
 
-    return p;
+    return result;
 
 }
 int main()
