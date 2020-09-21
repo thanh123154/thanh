@@ -1,0 +1,61 @@
+* 
+{
+	box-sizing: border-box;
+}
+body 
+{
+	background-color: #171717;
+}
+
+.menu a 
+{
+	color: white;
+	padding: 15px;
+
+}
+.wrap
+{
+	max-width: 1000px;
+	margin: 30px;
+}
+
+
+.pic {
+	background-color: #171717;
+
+}
+
+/*.wrap2 {
+	overflow: hidden;
+	float: left;
+	margin: 15px;
+	padding: 10px;
+	width: calc(30% + 2px);
+	background-color: white;
+	border :2px solid grey ;
+}*/
+.pic img 
+{
+	
+	transition: 0.3s ;
+	max-width: 100%;
+	
+}
+p {
+	color: white;
+	padding-left: 15px;
+}
+
+
+#background 
+{
+	max-width: 100%;
+	
+}
+/*.pic a:hover img 
+{
+	transform: scale(1.1);
+
+
+
+}*/
